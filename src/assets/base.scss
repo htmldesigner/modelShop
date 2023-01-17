@@ -1,0 +1,50 @@
+$bgColor: #fafafa;
+$textColor: #333333;
+$textGray: #757575;
+$primaryBlue: #279fb9;
+$accentYellow: #ffc020;
+$borderColor: #e0e0e0;
+$default-font: "Roboto";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+::placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+
+body {
+  min-height: 100vh;
+  color: $textColor;
+  background: $bgColor;
+  line-height: 1.6;
+  font-family: $default-font;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
